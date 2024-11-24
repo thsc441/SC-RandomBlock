@@ -1,0 +1,11 @@
+<NewDatabase>
+    <ProjectTemplate Name="Project" Guid="85023bf8-1c90-4dd1-9442-e6c13691d078">
+        <MemberSubsystemTemplate Name="RandomBlockBehavior" Guid="c1cbc87d-eb53-4530-8a20-efc18bf67a3d" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+			<Parameter Name="Class" Guid="6bb1ec54-0387-4947-8994-ee2687407ab2" Value="Game.SubsystemRandomBlockBehavior" Type="string" />
+		</MemberSubsystemTemplate>
+		<MemberSubsystemTemplate Name="RandomBlock" Description="" Guid="6bb286b7-5359-2f5b-9e8e-f875c5facbb1" InheritanceParent="a3914c13-7801-46a6-b23a-9e2b36e9defb">
+		    <Parameter Name="Class" Guid="ab5f484b-b18e-2d9c-daa0-b59789452ea5" Value="Game.SubsystemRandomBlock" Type="string" />
+	    </MemberSubsystemTemplate>
+    </ProjectTemplate>
+</NewDatabase>
+

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" HintPath="../assemblies/System.Net.Http.dll" />
+    <Reference Include="System.Collections" />
+    <Reference Include="Engine" HintPath="../assemblies/Engine.dll" />
+    <Reference Include="EntitySystem" HintPath="../assemblies/EntitySystem.dll" />
+    <Reference Include="Survivalcraft.exe" HintPath="../assemblies/Survivalcraft.exe.dll" />
+  </ItemGroup>
+  <PropertyGroup>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>
+    </LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>

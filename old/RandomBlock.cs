@@ -15,12 +15,7 @@ namespace Game
         	FirstPersonScale = (float)0.4;
         	FirstPersonOffset = new Vector3((float)0.5, (float)-0.5, (float)-0.5);
         	DefaultDisplayName = "随机方块";//名称
-        	MaxStacking = 1024;
-        	DefaultDropContent = Index;
-        	DefaultDescription = DefaultDisplayName;
-        	Behaviors = "RandomBlockBehavior";
-        	CraftingId = "randomblock";
-        	/*MaxStacking = 2147483647;//最大堆叠
+        	MaxStacking = 2147483647;//最大堆叠
         	DefaultMeleePower = 2147483647;//攻击力
         	DefaultDropContent = Index;//掉落物
         	IsTransparent = true;//是否透明
@@ -34,10 +29,10 @@ namespace Game
         	CraftingId = "randomblock";
         	int num = Terrain.ExtractData(Index);
             num &= 0xF;
-            num |= MathUtils.Clamp(2147483647, 0, 4095) << 4;//攻击力*/
+            num |= MathUtils.Clamp(2147483647, 0, 4095) << 4;//攻击力
     		base.Initialize();
 		}
-		 
+		
 		public override void DrawBlock(PrimitivesRenderer3D primitivesRenderer,int value, Color color, float size, ref Matrix matrix,DrawBlockEnvironmentData environmentData)
         {
         	BlocksManager.DrawCubeBlock(primitivesRenderer, value, new Vector3(size), ref matrix, color, color, environmentData);

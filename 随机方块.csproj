@@ -3,13 +3,6 @@
     <OutputType>Library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System.Net.Http" HintPath="../assemblies/System.Net.Http.dll" />
-    <Reference Include="System.Collections" />
-    <Reference Include="Engine" HintPath="../assemblies/Engine.dll" />
-    <Reference Include="EntitySystem" HintPath="../assemblies/EntitySystem.dll" />
-    <Reference Include="Survivalcraft.exe" HintPath="../assemblies/Survivalcraft.exe.dll" />
-  </ItemGroup>
   <PropertyGroup>
     <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
   </PropertyGroup>
@@ -20,4 +13,14 @@
   <PropertyGroup>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Engine" HintPath="../assemblies/api1.63/out/Engine.dll" />
+    <Reference Include="EntitySystem" HintPath="../assemblies/api1.63/out/EntitySystem.dll" />
+    <Reference Include="Survivalcraft.exe" HintPath="../assemblies/api1.63/out/Survivalcraft.dll" />
+    <Reference Include="System.Net.Http" HintPath="../assemblies/api1.63/out/System.Net.Http.dll" />
+    <Reference Include="System.Collections" HintPath="../assemblies/api1.63/out/System.Collections.dll" />
+    <Reference Include="System.Threading.Thread" HintPath="../assemblies/api1.63/out/System.Threading.Thread.dll" />
+    <Reference Include="System.Runtime" HintPath="../assemblies/api1.63/out/System.Runtime.dll" />
+    <Reference Include="System.IO" HintPath="../assemblies/api1.63/out/System.IO.dll" />
+  </ItemGroup>
 </Project>

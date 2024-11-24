@@ -4,6 +4,6 @@
     {         
         public static string Name = "随机方块";
         public static string PackageName = "RandomBlock";
-        public static string Version = "2";
+        public static string Version = "1";
     }
 }
